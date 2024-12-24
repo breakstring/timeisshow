@@ -11,13 +11,13 @@
 
 .glow-effect {
   position: absolute;
-  top: -6px;
-  left: -6px;
-  right: -6px;
-  bottom: -6px;
+  top: -0.375rem;
+  left: -0.25rem;
+  right: -0.25rem;
+  bottom: -0.375rem;
   background: rgba(255, 255, 255, 0.08);
-  filter: blur(3px);
-  border-radius: 16px;
+  filter: blur(0.1875rem);
+  border-radius: 1rem;
   transform: none;
   z-index: 1;
 }
@@ -28,6 +28,6 @@
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 16px;
+  border-radius: 1rem;
   object-fit: contain;
 }
