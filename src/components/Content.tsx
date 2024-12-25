@@ -22,20 +22,10 @@ function Tooltip({ children, text }: { children: React.ReactNode; text: string }
 
 export function Content() {
   return (
-    <div className="text-white space-y-8">
-      {/* 网站标题 */}
-      <h1 className="text-6xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">
-        Time Is Show
-      </h1>
-
-      {/* Slogan */}
-      <h2 className="text-2xl font-light italic text-gray-300">
-        Every time is a show of beauty.
-      </h2>
-
+    <div className="text-white space-y-6 md:space-y-8">
       {/* 内容介绍 */}
-      <div className="space-y-4 text-gray-300">
-        <h3 className="text-xl font-semibold text-white">
+      <div className="space-y-3 md:space-y-4 text-gray-300 text-sm md:text-base">
+        <h3 className="text-lg md:text-xl font-semibold text-white text-center md:text-left">
           "Time Is Show" - Where Every Moment Becomes an Artistic Performance
         </h3>
         
@@ -82,11 +72,11 @@ export function Content() {
       </div>
 
       {/* 下载按钮 */}
-      <div className="flex gap-4 pt-4">
+      <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center md:justify-start">
         <Tooltip text="Coming soon to App Store - Stay tuned!">
           <a
             href="#"
-            className="flex items-center gap-3 px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors"
+            className="flex items-center justify-center gap-3 px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors w-full sm:w-auto"
           >
             <img src="/app-store-icon.svg" alt="App Store" className="w-9 h-9" />
             App Store
@@ -95,7 +85,7 @@ export function Content() {
         <Tooltip text="Coming soon to Play Store - Stay tuned!">
           <a
             href="#"
-            className="flex items-center gap-3 px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors"
+            className="flex items-center justify-center gap-3 px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors w-full sm:w-auto"
           >
             <img src="/play-store-icon.svg" alt="Play Store" className="w-7 h-7" />
             Play Store

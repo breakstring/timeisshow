@@ -45,7 +45,7 @@ export function ImageDisplay() {
         alt="Time-based image"
         className="w-full h-auto"
         style={{
-          maxHeight: '80vh',
+          maxHeight: 'calc(100vh - 16rem)',
           objectFit: 'cover',
         }}
       />
