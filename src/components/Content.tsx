@@ -78,7 +78,7 @@ export function Content() {
             href="#"
             className="flex items-center justify-center gap-3 px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors w-full sm:w-auto"
           >
-            <img src="/app-store-icon.svg" alt="App Store" className="w-9 h-9" />
+            <img src="/app-store-icon.svg" alt="App Store" className="w-7 h-7" />
             App Store
           </a>
         </Tooltip>
