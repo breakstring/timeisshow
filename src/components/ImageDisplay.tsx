@@ -39,21 +39,16 @@ export function ImageDisplay() {
     : DEFAULT_IMAGE;
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-900 p-8">
-      <div className="relative w-full max-w-md">
-        <div className="glow-wrapper">
-          <div className="glow-effect"></div>
-          <img
-            src={imageUrl}
-            alt="Time-based image"
-            className="relative w-full h-auto rounded-lg shadow-xl"
-            style={{
-              maxHeight: '80vh',
-              objectFit: 'contain',
-            }}
-          />
-        </div>
-      </div>
+    <div className="glow-wrapper">
+      <img
+        src={imageUrl}
+        alt="Time-based image"
+        className="w-full h-auto"
+        style={{
+          maxHeight: '80vh',
+          objectFit: 'cover',
+        }}
+      />
     </div>
   );
 }
