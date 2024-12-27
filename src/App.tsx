@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ImageDisplay } from './components/ImageDisplay';
 import { Content } from './components/Content';
 import { Navbar } from './components/Navbar';
+import { Footer } from './components/Footer';
 
 export type Language = 'en' | 'zh';
 
@@ -40,6 +41,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
