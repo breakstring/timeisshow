@@ -1,0 +1,3 @@
+Contact: mailto:kz.ai.lab@outlook.com
+Expires: 2025-12-31T23:59:59Z
+Preferred-Languages: en, zh
