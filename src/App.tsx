@@ -14,12 +14,12 @@ function App() {
       <Navbar language={language} onLanguageChange={setLanguage} />
       <div className="flex-1 flex items-center justify-center p-4 md:p-8">
         <div className="container mx-auto flex flex-col md:flex-row gap-8 md:gap-12 items-center md:items-start">
-          <div className="hidden md:flex w-full md:w-1/2 justify-end">
+          <div className="hidden md:flex w-full md:w-2/5 justify-center">
             <div className="w-full max-w-[800px]">
               <ImageDisplay />
             </div>
           </div>
-          <div className="w-full md:w-1/2 flex flex-col gap-8">
+          <div className="w-full md:w-3/5 flex flex-col gap-8">
             <div className="text-white space-y-4 px-4">
               <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent text-center md:text-left">
                 Time Is Show
