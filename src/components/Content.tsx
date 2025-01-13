@@ -104,7 +104,7 @@ export function Content({ language }: ContentProps) {
             href="#"
             className="flex items-center justify-center gap-3 px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors w-full sm:w-auto"
           >
-            <img src="/app-store-icon.svg" alt="App Store" className="w-7 h-7" />
+            <img src="/apple-brands-solid.svg" alt="App Store" className="w-6 h-6" />
             App Store
           </a>
         </Tooltip>
@@ -113,7 +113,7 @@ export function Content({ language }: ContentProps) {
             href="#"
             className="flex items-center justify-center gap-3 px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors w-full sm:w-auto"
           >
-            <img src="/play-store-icon.svg" alt="Play Store" className="w-7 h-7" />
+            <img src="/google-play-brands-solid.svg" alt="Play Store" className="w-6 h-6" />
             Play Store
           </a>
         </Tooltip>
