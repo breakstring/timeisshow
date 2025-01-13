@@ -98,23 +98,23 @@ export function Content({ language }: ContentProps) {
       </div>
 
       {/* 下载按钮 */}
-      <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center md:justify-start">
+      <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center md:justify-start items-center">
         <Tooltip text={t.comingSoon.appStore}>
-          <a
-            href="#"
-            className="flex items-center justify-center gap-3 px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors w-full sm:w-auto"
-          >
-            <img src="/apple-brands-solid.svg" alt="App Store" className="w-6 h-6" />
-            App Store
+          <a href="#" className="block">
+            <img 
+              src="/app-store.svg" 
+              alt="Download on the App Store" 
+              className="h-[44px] w-auto"
+            />
           </a>
         </Tooltip>
         <Tooltip text={t.comingSoon.playStore}>
-          <a
-            href="#"
-            className="flex items-center justify-center gap-3 px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors w-full sm:w-auto"
-          >
-            <img src="/google-play-brands-solid.svg" alt="Play Store" className="w-6 h-6" />
-            Play Store
+          <a href="#" className="block">
+            <img 
+              src="/google-play-badge.png" 
+              alt="Get it on Google Play" 
+              className="h-[64px] w-auto"
+            />
           </a>
         </Tooltip>
       </div>
